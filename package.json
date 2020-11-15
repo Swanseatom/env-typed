@@ -1,0 +1,51 @@
+{
+  "name": "@swanseatom/env-typed",
+  "version": "0.0.1",
+  "description": "A package to parse env variables with correct types",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-mocha 'src/tests/**/*.ts'"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swanseatom/env-typed.git"
+  },
+  "keywords": [
+    "process.env",
+    "node",
+    "nodejs",
+    "env",
+    "environment",
+    "type",
+    "typed",
+    "parse",
+    "parsing"
+  ],
+  "author": "Swanseatom - tom@tom-riley.tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swanseatom/env-typed/issues"
+  },
+  "homepage": "https://github.com/Swanseatom/env-typed#readme",
+  "dependencies": {
+    "@types/node": "^14.14.7"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "mocha": "^8.2.1",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.0.5"
+  }
+}
